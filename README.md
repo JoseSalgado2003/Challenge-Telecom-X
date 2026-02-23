@@ -11,11 +11,11 @@ Este proyecto fue desarrollado para Telecom X, una empresa que enfrenta una alta
 ## 🚀 Fases del Proyecto
 
 1. **Extracción de Datos:** Se importaron los datos en formato JSON directamente desde la API de Telecom X.
-2. **Transformación y Limpieza (ETL):** * Conversión de los datos a un DataFrame de Pandas.
+2. **Transformación y Limpieza (ETL):** Conversión de los datos a un DataFrame de Pandas.
    * Tratamiento de valores nulos, duplicados y errores de formato.
    * Creación de la columna calculada `Cuentas_Diarias` a partir de la facturación mensual.
    * Estandarización de variables categóricas a valores binarios (1 y 0) para facilitar el procesamiento matemático.
-3. **Análisis Exploratorio de Datos (EDA):** * Análisis descriptivo de las variables.
+3. **Análisis Exploratorio de Datos (EDA):** Análisis descriptivo de las variables.
    * Visualización de la distribución de la evasión (`Churn`) frente a variables categóricas (como tipo de contrato) y numéricas (como total gastado).
    * Análisis de correlación entre las distintas variables del dataset.
 4. **Conclusiones y Recomendaciones:** Generación de un informe final con hallazgos estratégicos para reducir la tasa de abandono.
